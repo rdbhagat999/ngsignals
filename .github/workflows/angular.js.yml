@@ -63,7 +63,7 @@ jobs:
           enablement: true
 
       - name: Install dependencies
-        run: npm i -f
+        run: npm ci -f
         working-directory: ${{ env.BUILD_PATH }}
 
       - name: Build with Angular
